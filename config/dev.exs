@@ -9,7 +9,8 @@ use Mix.Config
 config :demo, DemoWeb.Endpoint,
   http: [port: 4000],
   debug_errors: true,
-  code_reloader: true,
+  server: true,
+  code_reloader: false,
   check_origin: false,
   watchers: [
     node: [
