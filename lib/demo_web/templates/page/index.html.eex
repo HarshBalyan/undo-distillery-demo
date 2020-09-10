@@ -5,9 +5,9 @@
     <th><%= value %></th>
     <th>
       <%= if is_nil(value) do %>
-        &#10004;
-      <% else %>
         &#x274C;
+      <% else %>
+        &#10004;
       <% end %>
     </th>
     </tr>
