@@ -40,6 +40,10 @@ environment :dev do
   set overlays: [
     {:copy, "rel/config/config.exs", "etc/config.exs"}
   ]
+
+  set commands: [
+    play_ping_pong: "rel/commands/play_ping_pong.sh"
+  ]
 end
 
 environment :prod do
